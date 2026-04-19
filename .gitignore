@@ -1,0 +1,22 @@
+# PostgreSQL data (large binary files, not human-readable)
+data/
+
+# Secrets - back up separately, never commit
+.env
+
+# Backup output folder
+backups/
+
+# Caddy auto-generated certs/config (stored in Docker volumes anyway)
+caddy_data/
+caddy_config/
+
+# Docker volume data (managed by Docker, not host files)
+redis_data/
+rustfs-data/
+
+# OS and editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

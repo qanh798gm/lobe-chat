@@ -1,0 +1,3 @@
+lobe.local {
+    reverse_proxy lobe:3210
+}
