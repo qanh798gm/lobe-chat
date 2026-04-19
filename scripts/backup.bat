@@ -5,7 +5,7 @@ REM Run via Task Scheduler for automated daily/weekly backups
 setlocal EnableDelayedExpansion
 
 REM === CONFIGURATION ===
-set BACKUP_DIR=%~dp0backups
+set BACKUP_DIR=E:\Workspace\LobeChat-Backups
 set DB_CONTAINER=lobe-postgres
 set RUSTFS_VOLUME=lobehub_rustfs-data
 set REDIS_VOLUME=lobehub_redis_data
